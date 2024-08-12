@@ -26,3 +26,7 @@ print("The {2} {0} {1}".format("quick", "brown", "fox"))
 
 name = "Jose"
 print(f"Hello, his name is {name}")
+
+
+img = '//upload.wikimedia.org/wikipedia/en/thumb/9/94/Symbol_support_vote.svg/19px-Symbol_support_vote.svg.png'
+print(img[-3:]) #Extract last 3 characters
